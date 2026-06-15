@@ -1,0 +1,28 @@
+# User-specific config with credentials.
+# NOTE: ideally this should be ignored, but config.json 
+# committed for testing purposes 
+# **/config.json
+
+# Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# NuGet
+packages/
+*.nuget.props
+*.nuget.targets
+project.assets.json
+
+# Test results
+TestResults/
+*.trx
